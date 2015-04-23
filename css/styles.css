@@ -1,0 +1,74 @@
+/*General Styles*/
+
+body {
+  background-color: #D1DBDD;
+}
+
+ul {
+  margin-top: 0;
+}
+
+input {
+  min-width: 494px;
+  background-color: transparent;
+}
+
+.wrapper {
+  border: 1px solid #000;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+/*End of General Styles*/
+/*Main Styels*/
+
+.top-prioity,
+.prioity,
+.wants {
+  margin: 0 auto;
+  width: 500px;
+  height: 200px;
+}
+
+.collaspe-top-prioity {
+  margin-top: 8px;
+}
+
+.collaspe-top-prioity,
+.collaspe-prioity,
+.collaspe-wants {
+  background-color: steelblue;
+  border-radius: 12px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+/*End of Main Styels*/
+/*Icon Styles*/
+
+.check_minus, .fa-minus-square-o {
+  display: inline;
+  float: right;
+}
+
+.fa-minus-square-o:hover,
+.fa-check:hover,
+.fa-minus:hover {
+  cursor: pointer;
+}
+
+.fa-check {
+  color: #7FE97D;
+}
+
+.fa-minus {
+  color: #FF4C4F;
+}
+
+.fa-minus-square-o {
+  margin: 2.5px 5px 0 0;
+}
+/*End of Icons Styels*/
+
+/*Classes for jquery to pull from*/
+.complete {
+  text-decoration: line-through;
+}
