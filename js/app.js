@@ -28,15 +28,12 @@ $(document).ready(function() {
   $(".wants").find('.fa-minus-square-o').click(function(){
     $('.collaspe-wants-item').slideToggle();
   });//<-- End of this interaction
-  //Crosses through the text when the checkmark is checked
+  //Crosses through the text when the checkmark is clicked
   $(document).on('click', '.fa-check', function(){
-    // $('.top-prioity-item-1').toggleClass('complete');
     $(this).parent().closest('li.item').css('textDecoration', 'line-through');
-    alert('Here!');
-  });
-  //Removes the text from the list when the minus button is clicked
-  $('.fa-minus').live('click', function(){
-    // $('.top-prioity-item-1').toggleClass('complete');
+    });
+  //Removes the text from the list when the minus sign is clicked
+  $(document).on('click', '.fa-minus', function(){
     $(this).parent().closest('li.item').remove();
   });
 });
